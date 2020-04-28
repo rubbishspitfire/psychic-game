@@ -1,25 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Psychic Game</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 </head>
 <body>
-
-    
     <div class="container">
+        <!-- The title of the page -->
         <h1>Psychic Game</h1>
-        <h2>Guess what letter I'm thinking of</h2>
-        <p id= wins>Wins</p>
-        <p id= losses>Losses</p>
-        <p id= left>Guesses you have left</p>
-        <p id= guesses>What you've guessed so far</p>
-    </div>
+        
+        <p>Guess what letter I'm thinking of</p>
 
-    <!--script always goes on the bottom of the page-->
-    <script src="assets/javascript/game.js"></script>
+        <!-- This is where we will have the win counter in HTML. It initially shows 0 -->
+        <p>Wins: <span id="wins">0</span></p>
+
+        <!-- This is where we will have the loss counter in HTML. It initially shows 0 -->
+        <p>Losses: <span id="losses">0</span></p>
+
+        <!--This is where we will post the guessesLeft. Initially nothing is shown. -->
+        <p>Guesses Left: <span id="guesses-left">0</span></p>
+
+        <!-- This is where we will post the guessesSoFar. Initially nothing is shown. -->
+        <p>Your Guesses so far: <span id="guesses-so-far">0</span></p>
+
+        <!--Link to JavaScript game.js -->
+        <script src="assets/javascript/game.js"></script>
     
 </body>
 </html>
