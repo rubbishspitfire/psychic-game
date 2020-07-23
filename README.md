@@ -1,7 +1,6 @@
 # Psychic-Game
 This is a letter/character guessing program written using `HTML` and `Javascript`.
 
-!.[.](./psychicgame.png)
 
 ### Description
 
