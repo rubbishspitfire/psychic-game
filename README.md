@@ -1,6 +1,7 @@
 # Psychic-Game
 This is a letter/character guessing program written using `HTML` and `Javascript`.
 
+![](assets/images/psychicgame.png)
 
 ### Description
 
@@ -10,4 +11,4 @@ This is a letter/character guessing program written using `HTML` and `Javascript
 * If both the character's match, user's win count increments by 1 otherwise after all the guess attemps are exhauseted, loss count increments by 1.
 
 ### Live Demo
-- Click [here ](https://rubbishspitfire.github.io/psychic-game/)
+- Click [here](https://rubbishspitfire.github.io/psychic-game/)
